@@ -1,0 +1,44 @@
+.nav{
+    text-align: center;
+    font-size: 150%;
+    background-color: #38baf1;
+    margin-left: 10px;
+    padding-left: 0px;
+    list-style: none;
+    border-bottom: 2px solid rgba(245, 221, 8, 0.596);
+    overflow: hidden;
+    height: 40px;
+}
+a{
+    display: inline-block;  /* выравнивание по горизонтали*/
+    text-decoration: none /* убирает все декорации букв меню*/
+    text-align: center;  /* Текст по центру  элемента*/
+    padding: 5px 15px;
+    color: #ffffff; /*Цвет текста*/
+}
+.nav li{
+    display: inline;
+    text-align: center;
+    width: 40%;
+
+}
+.nav a:hover{background: #8ab8cc;}
+.fstdiv{
+    width: 620px;
+    height: 400px;
+   /* background-color: #d2eaf5;*/
+    opacity: 1.0;
+   /* background-image: url(../image/balashov2.png) ;*/
+}
+.leftimg{
+    margin: 0 7px 7px 7px; /* Отступы вокруг картинки*/
+} 
+.skf{
+   /* text-indent: 15em ;*/
+    font-family: Arial;
+    font-size: 20px;
+    background-color:#e3f3f6 ;
+    text-align: justify;
+}   
+
+
